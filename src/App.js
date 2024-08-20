@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TopBar from "./components/TopBar/TopBar"
+import OptionBox from "./components/OptionBox/OptionBox"
+import FilterBox from "./components/FilterBox/FilterBox"
+import SelectBar from "./components/RightSide/SelectBar/SelectBar"
+import ShowBox from "./components/RightSide/ShowBox/ShowBox"
+import RightSide from "./components/RightSide/RightSide"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="mainContainer">
+        <TopBar />
+        <div className="middleContainer">
+          <div className="leftSide">
+            <div><OptionBox /></div>
+            <div><FilterBox /></div>
+          </div>
+          <RightSide className="rightSide">
+            <div><ShowBox /></div>
+            <div><SelectBar /></div>
+          </RightSide>
+        </div>
+      </div>
     </div>
   );
 }

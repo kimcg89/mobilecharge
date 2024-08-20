@@ -1,0 +1,15 @@
+.topContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* 반투명한 배경 */
+  width: 100%;
+  border-radius: 8px;
+}
