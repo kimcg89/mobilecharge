@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mobilecharge/static/css/main.4e1625f6.css",
-    "main.js": "/mobilecharge/static/js/main.8a4bf2ce.js",
+    "main.css": "/mobilecharge/static/css/main.94eb62ff.css",
+    "main.js": "/mobilecharge/static/js/main.a6186ee8.js",
     "index.html": "/mobilecharge/index.html",
-    "main.4e1625f6.css.map": "/mobilecharge/static/css/main.4e1625f6.css.map",
-    "main.8a4bf2ce.js.map": "/mobilecharge/static/js/main.8a4bf2ce.js.map"
+    "main.94eb62ff.css.map": "/mobilecharge/static/css/main.94eb62ff.css.map",
+    "main.a6186ee8.js.map": "/mobilecharge/static/js/main.a6186ee8.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e1625f6.css",
-    "static/js/main.8a4bf2ce.js"
+    "static/css/main.94eb62ff.css",
+    "static/js/main.a6186ee8.js"
   ]
 }
