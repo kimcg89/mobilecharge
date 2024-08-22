@@ -22,19 +22,16 @@
   align-items: flex-start;
   width: 100%;
   min-width: 976px; /* 페이지의 최소 너비 설정 */
-  /* background-color: #fff; */
 }
 
 .leftSide {
   display: flex;
   flex-direction: column;
-  /* background-color: blue; */
   width: 100%;
   height: 40%;
 }
 
 .rightSide {
-  /* background-color: green; */
   width: 100%;
   height: 100%;
   display: flex;

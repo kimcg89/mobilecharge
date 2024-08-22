@@ -2,11 +2,14 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  background-color: gray;
-  /* background-image: url('https://d8gageze1i5x5.cloudfront.net/img/og/planFinder_web.jpg'); */
-  /* background-size: contain; */
+  /* background: linear-gradient(to right, #3bcc97, #dcedf7); */
+  background-image: url('https://d8gageze1i5x5.cloudfront.net/img/og/planFinder_web.jpg');
+  background-size: contain;
   background-position: center;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   height: 100%;
+  width: auto;
+  align-items: center;
+  justify-content: center;
 }
 

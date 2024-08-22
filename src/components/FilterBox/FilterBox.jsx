@@ -109,9 +109,15 @@ const FilterBox = () => {
             <div className="buttonGroup">
               {[
                 "전체",
-                "자급제 휴대폰",
-                "중고 휴대폰",
-                "요금제 결합 휴대폰",
+                (<>
+                  자급제<br/>휴대폰
+                </>),
+                (<>
+                  중고<br/>휴대폰
+                </>),
+                (<>
+                  요금제 결합<br/>휴대폰
+                </>),
               ].map((type) => (
                 <button
                   key={type}

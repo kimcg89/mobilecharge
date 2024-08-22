@@ -8,8 +8,8 @@ const ShowBox = ({ showRightContainer, currentImage  }) => {
         style={{ visibility: showRightContainer ? "visible" : "hidden" }}
       >
         <img
-          src={`/image/image${currentImage}.png`}
-          alt="background"
+          src={process.env.PUBLIC_URL + `/image/image${currentImage}.png`}
+          alt="추천 요금제"
           className="backgroundImage"
         />
       </div>

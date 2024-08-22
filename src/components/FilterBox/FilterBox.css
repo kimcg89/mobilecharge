@@ -9,11 +9,11 @@
 .filters {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 0 30px;
 }
 
 .filterSection {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .buttonGroup {
@@ -24,13 +24,14 @@
 
 .button {
   flex: 1;
-  margin: 5px;
+  margin: 1px;
   padding: 10px 20px;
   background-color: white;
   color: black;
   border: 1px solid #ccc;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 16px;
 }
 
 .button.active, .button:hover {

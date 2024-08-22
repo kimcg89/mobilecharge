@@ -9,11 +9,11 @@
 .sliders {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 0 30px;
 }
 
 .sliderContainer {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .slider {
@@ -63,4 +63,5 @@
 .sliderLabels span {
   position: absolute;
   transform: translateX(-50%);
+  margin-top: 5px;
 }
